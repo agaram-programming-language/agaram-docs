@@ -15,20 +15,14 @@ To use அகரம், first clone the repository:
 Installing Dependencies
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Agaram interpreter needs maven to work. To install maven, follow this
+:ref:`official guide<https://maven.apache.org/install.html>
 
-.. autofunction:: lumache.get_random_ingredients
+After installing maven run this command to install the dependencies:
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. code-block:: console
 
-.. autoexception:: lumache.InvalidKindError
+    $ cd agaram-interpreter && mvn clean install
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
