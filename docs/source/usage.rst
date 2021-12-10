@@ -6,13 +6,13 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use அகரம், first clone the repository:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+    $ git clone https://github.com/agaram-programming-language/agaram-interpreter
 
-Creating recipes
+Installing Dependencies
 ----------------
 
 To retrieve a list of random ingredients,

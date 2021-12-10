@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'அகரம்'
-copyright = '2021, Graziella'
+copyright = '2021, Naveen Muthusamy'
 author = 'Naveen Muthusamy'
 
 release = '0.1'
