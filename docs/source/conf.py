@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'அகரம்'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Naveen Muthusamy'
 
 release = '0.1'
 version = '0.1.0'
