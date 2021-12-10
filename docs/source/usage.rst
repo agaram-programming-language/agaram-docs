@@ -22,7 +22,8 @@ After installing maven run this command to install the dependencies:
 
 .. code-block:: console
 
-    $ cd agaram-interpreter && mvn clean install
+    $ cd agaram-interpreter && mvn clean compile exec:java
+
 
 
 
